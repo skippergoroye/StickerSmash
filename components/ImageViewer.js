@@ -3,7 +3,6 @@ import { StyleSheet, Image } from "react-native";
 
 export default function ImageViewer ({ placeholderImageSource, newImage }) {
 
-
     const imageSource = newImage !== null
     ? { uri: newImage }
     : placeholderImageSource;
